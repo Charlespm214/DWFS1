@@ -1,0 +1,111 @@
+header
+    {
+        background-color: transparent;
+        padding: 10px 10px;
+    }
+body
+    {
+        background: rgb(31,2,65);
+        background: linear-gradient(90deg, rgba(31,2,65,0.8) 0%, rgba(76,0,255,0.8) 50%, rgba(10,10,10,0.8) 100%);    }
+h1  
+    {
+        background-color: transparent;
+        font-style:oblique;
+        font-size: xx-large;
+        font-weight:900;
+        text-transform: uppercase;
+        color: cyan;
+        text-shadow: 5px 5px 3px blue,
+                 7px 7px 5px black,
+                 5px 5px 7px black;    
+        text-align:center;
+        text-decoration:white;
+        word-spacing: 8px;
+        padding: 30px;
+    }
+#divGeneral
+    {
+        background-color: transparent;
+        padding: 15px 15px;
+    }
+#contenedor
+    {
+        background-color: transparent;
+        padding: 10px 180px;
+    }
+.divPrincipales
+    {
+        background-color: transparent;
+        display: inline-block;
+        padding: 10px 10px;
+        border-color:black;
+        border-width: 3px;
+        border-style:groove;
+        border-radius: 5px;
+
+    }
+#Piedra
+    {
+        background-color:transparent;
+        border-color:black;
+        border: 1px;
+        width: 155px;
+        height: 155px;
+        margin: auto;
+    }
+#Papel
+    {
+        background-color: transparent;
+        border-color:black;
+        width: 155px;
+        height: 155px;
+        margin: auto;
+    }
+#Tijera
+    {
+        background-color: transparent;
+        width: 155px;
+        height: 155px;
+        margin: auto;
+    }
+img
+    {
+        width: 150px;
+        height: 150px;
+    }
+.lblNombre
+    {
+        text-transform: uppercase;
+        text-align: center;
+        color: black;
+        font-size: small;
+    }
+#respuesta
+    {
+        background-color: transparent;
+        color: black;
+        text-align: center;
+        text-transform: capitalize;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: x-large;
+        font-weight:lighter;
+        white-space: pre;
+        color: cyan;
+        text-shadow: 5px 5px 3px blue,
+                 7px 7px 5px black,
+                 5px 5px 7px black; 
+    }
+footer
+    {
+        padding: 15px 15px;
+        font-weight: bold;
+        background-color: transparent;
+        text-align:right;
+        text-transform: capitalize;
+        color: cyan;
+        text-shadow: 5px 5px 3px blue,
+                 7px 7px 5px black,
+                 5px 5px 7px black; 
+    }
+.divPrincipales:hover{border-color: cyan; border-width: 5px; border-radius: 5px;}
+.divPrincipales:hover{transition:all .7s ease-in-out; filter: saturate(180%);}

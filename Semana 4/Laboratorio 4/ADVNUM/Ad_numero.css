@@ -1,0 +1,123 @@
+header
+    {
+        background-color: rgba(77, 75, 80, 0.705);
+        padding: 5%;
+        border-radius: 5px;
+        margin: auto;
+    }
+body
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: rgba(77, 75, 80, 0.705);
+    }
+h1
+    {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font: size 30px;
+        word-spacing: 10px;
+        letter-spacing: 5px;
+        color: rgb(253, 4, 54);
+        text-align: center;
+        text-transform: uppercase;
+        text-shadow: 3px 3px 4px rgb(250, 2, 2),
+                    4px 4px 5px rgb(12, 12, 12),
+                 5px 5px 4px rgb(253, 253, 253),
+                 5px 5px 5px rgb(235, 61, 9);
+    }
+#divGeneral
+    {
+        background-color: transparent;
+        padding: 60px;
+    }
+#divForm
+    {
+        background-color: transparent;
+        text-align: center;
+    }
+#divSistema
+    {
+        background-color: rgba(77, 75, 80, 0.705);
+    }
+#txtnumeroIngresado
+    {
+        background-color: rgba(255, 255, 255, 0.884);
+        font-size: 50px;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 8px;
+        border-color: black;
+        padding: 8px 40px;
+    }
+#btnValidar
+    {
+        background-color: transparent;
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: center;
+        text-decoration: solid;
+        border-color: white;
+        border-radius: 5px;
+        color:rgb(253, 4, 54);
+        height: 50px;
+    }
+
+#reset
+    {
+        background-image: url(refresh.png);
+        background-repeat:no-repeat;
+        background-position: center;
+        background-size: 40px;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        font-size: 20px;
+        text-align: center;
+        text-decoration: solid;
+        border-color:white;
+        border-radius: 5px;
+        color: white;
+        position: absolute;
+    }
+img
+    {
+        width: 40px;
+    }
+#respuesta
+    {
+        background-color: transparent;
+        color: white;
+        font-size: larger;
+        text-align: center;
+        text-shadow: 3px 3px 4px rgb(250, 2, 2),
+                    4px 4px 5px rgb(12, 12, 12),
+                 5px 5px 4px rgb(253, 253, 253),
+                 5px 5px 5px rgb(235, 61, 9);
+        white-space: pre;
+    }
+#sistema
+    {
+        background-color: transparent;
+        color: white;
+        font-size: larger;
+        text-align: center;
+        text-shadow: 3px 3px 4px rgb(8, 8, 8),
+                    4px 4px 5px rgb(235, 4, 4),
+                 5px 5px 4px rgb(24, 24, 24),
+                 5px 5px 5px rgb(235, 61, 9);
+        white-space: pre;
+    }
+footer
+    {
+        background-color: rgba(77, 75, 80, 0.705);
+        text-align: center;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+    }
+@media screen and (max-width:500px)
+    {
+        nav,.row
+            {
+                flex-direction: column;
+            }
+    }

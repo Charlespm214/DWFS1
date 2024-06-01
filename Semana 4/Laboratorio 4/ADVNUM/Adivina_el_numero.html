@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Ad_numero.css">
+    <script src="Ad_numero.js"></script>
+    <title>Adivina el número</title>
+</head>
+<body>
+    <header>
+        <h1>Adivina el número</h1>
+    </header>
+    <div id="divGeneral">
+        <div id="divForm">
+            <input type="number" id="txtnumeroIngresado" min="1" max="100">
+            <br>
+            <button onclick="prueba()" id="btnValidar">Verificar</button>
+            &nbsp;
+            <button onclick="restablecer()" type="reset" id="reset"></button>
+            <br>
+            <p id="respuesta"></p>
+            <br>
+            <p id="sistema"></p>
+        </div>
+        <div id="divSistema"></div>
+    </div>
+<footer>
+    <p>Carlos Páez</p>
+</footer>
+</body>
+</html>

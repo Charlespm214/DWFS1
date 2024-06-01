@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles_Login_NTF.css">    
+    <title>Netflix</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor_logo">
+            <a href="#"><img class="logo_dimensión" src="https://fontmeme.com/permalink/240510/8a65897b7c4dbd2940c7c6c7e3fac759.png"></a>
+        </div>
+    </header>
+    <main>
+        <div class="form_container">
+        <div class="campos_1">
+            <form>
+                <h2>Inicia sesión</h2>
+                <input type="text"class="cajas_form" name="usuario" id="user" placeholder="Email o Usuario">
+                <br/><br/>
+                <input type="password" class="cajas_form" name="password" id="pass" placeholder="Contraseña">
+                <br/><br/>
+                <input type="button" id="boton1" class="botones_form" value="Iniciar sesión">
+                <p class="o_pass">O</p>
+        </div>
+        <section>
+        <div class="campos_2">
+            <nav>
+                <input type="button" id="boton2" class="botones_form" value="Usar un códgo de inicio de sesión">
+                <br/>
+                <p class="o_pass"><a id="pass" href="#">¿Olvidaste la contraseña?</a></p>
+                <input type="checkbox" name="recordar" id="remember">
+                <label>Recuérdame</label>
+                <p id="first">¿Primera vez en Netflix?
+                <a href="#">
+                    <label>Suscríbete ahora</label>
+                </a>
+                </p>
+                <p id="captcha">Esta página está protegida por Google reCAPTCHA para comprobar que no eres un robot.
+                <a href="#">Más info.</a>
+                </p>
+            </nav>
+            </form>
+        </div>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            <p id="footer_links">¿Preguntas? Llama al 01 800 917 1564</p>
+            <table>
+                <tr>
+                    <td><a href="#">Preguntas frecuentes</a></td>
+                    <td><a href="#">Centro de ayuda &nbsp;&nbsp;</a></td>
+                    <td><a href="#">Terminos de uso</a></td>
+                    <td>&nbsp;&nbsp;&nbsp;</td>
+                    <td><a href="#">Privacidad</a></td>
+                </tr>
+                <tr><td></td></tr>
+                <tr><td></td></tr>
+                <tr>
+                    <td><a href="#">Preferencias de cookies&nbsp;</a></td>
+                    <td><a href="#">Información corporativa</a></td>
+                </tr>
+                <tr>
+                    <td>
+                    <select name="idiomas" id="idiomas">
+                        <option value="español">Español</option>
+                        <option value="english">English</option>
+                    </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </footer>
+</body>
+</html>

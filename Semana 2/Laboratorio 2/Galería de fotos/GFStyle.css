@@ -1,0 +1,98 @@
+header{
+    background: rgb(11,10,116);
+    background: linear-gradient(0deg, rgba(11,10,116,1) 0%, rgba(12,4,69,1) 0%, rgba(0,0,0,1) 50%);
+}
+#titulo{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style:oblique;
+    font-size: x-large;
+    text-transform: uppercase;
+    color: rgb(196, 194, 194);
+    /*Multiples sombras para el texto del titulo*/
+    text-shadow: 7px 7px 3px black,
+                 10px 10px 5px rgb(196, 194, 194),
+                 5px 5px 7px blue;    
+    text-align:center;
+    text-decoration:white;
+    word-spacing: 8px;
+    padding: 30px;
+}
+body{
+    background: black;
+}
+    .contenedor_visualizador{
+    background: rgb(11,10,116);
+    background: linear-gradient(180deg, rgba(11,10,116,1) 0%, rgba(12,4,69,1) 0%, rgba(0,0,0,1) 50%);    border-radius: 1px;
+    padding: 30px;
+}
+.cont_v_imagen{
+    background-image: url(Imágenes/fondo_header.jpg);
+    background-size:cover;
+    border-radius: 10px;
+    padding: 120px 150px;
+    margin: auto;
+}
+.v_imagen{
+    background-color: transparent;
+    border-radius: 5px;
+}
+.division{
+    display: flex;
+    flex-wrap:wrap;
+}
+aside{
+    background-image: url(fondo_header.jpg);
+    background-size:contain;
+    background: rgb(0,0,0);
+    flex: 5%;
+    padding: 5px;
+}
+.contenedor_principal{
+    background: rgb(12,4,69);
+    background: radial-gradient(circle, rgba(12,4,69,1) 0%, rgba(0,0,0,0.8770685579196218) 30%, rgba(0,0,0,1) 30%);
+    border-radius: 5px;
+    display: grid;
+    width: 650px;
+    justify-content: center;
+    grid-template-columns: 208px 208px 208px;
+    grid-template-rows: 228px 228px 228px 228px;
+    padding: 30px 20px;
+}
+.cont_imagenes{
+    padding-top: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+}
+.imagen{
+    height: 160px;
+    width: 160px;
+    transition: 0,5s;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.detalle{
+    background-color: transparent;
+    color: rgb(196, 194, 194);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    text-align: center;
+}
+section{
+    background-image: url(fondo_header.jpg);
+    background-size:contain;
+    background: rgb(0,0,0);
+    flex: 5%;
+    padding: 5px;
+}
+footer{
+    background-color: black;
+    color: rgb(196, 194, 194);
+    text-align: center;
+    text-shadow: 4px 4px 4px;
+    text-decoration:overline;
+}
+@media screen and (max-width:500px){nav,.row{flex-direction: column;}}
+.imagen:hover{box-shadow: 2px 2px 50px rgba(42, 9, 119, 0.9);}
+.cont_imagenes:hover{border:none;}
+.imagen:hover{transform: scale(1.5);}
