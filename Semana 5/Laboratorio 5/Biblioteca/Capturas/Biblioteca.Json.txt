@@ -1,0 +1,44 @@
+[
+    {
+        "Título": "Las mil y una noches",
+        "Autor": "Anónimo",
+        "Año": 2017,
+        "Categoría": "Novela Literaria"
+    },
+    {
+        "Título": "Don Quijote de la Mancha",
+        "Autor": "Miguel de Cervantes",
+        "Año": 2015,
+        "Categoría": "Novela Literaria"
+    },
+    {
+        "Título": "Los tres mosqueteros",
+        "Autor": "Alejandro Dumas",
+        "Año": 2023,
+        "Categoría": "Novela Literaria Clasica"
+    },
+    {
+        "Título": "Cien años de soledad",
+        "Autor": "Gabriel García Márquez",
+        "Año": 1988,
+        "Categoría": "Literatura"
+    },
+    {
+        "Título": "La Matriarca",
+        "Autor": "Pablo Rivero",
+        "Año": 2024,
+        "Categoría": "Novela Negra"
+    },
+    {
+        "Título": "Memorias de Adriano",
+        "Autor": "Marguerite Yourcenar",
+        "Año": 1999,
+        "Categoría": "Novela Histórica"
+    },
+    {
+        "Título": "La enfermera de Hitler",
+        "Autor": "Mandy Robotham",
+        "Año": 2023,
+        "Categoría": "Novela Histórica"
+    }
+]
